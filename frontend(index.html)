@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Event Registration Portal</h1>
+
+    <form id="regForm">
+        <input type="text" id="name" placeholder="Enter Name" required>
+
+        <input type="email" id="email" placeholder="Enter Email" required>
+
+        <select id="event">
+            <option>Hackathon</option>
+            <option>Workshop</option>
+            <option>Seminar</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="msg"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
